@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/krishilogin/static/css/main.cf39d0da.css",
+    "main.js": "/krishilogin/static/js/main.61c4406f.js",
+    "static/media/Farming.png": "/krishilogin/static/media/Farming.4346db78e860e4c25daa.png",
+    "index.html": "/krishilogin/index.html",
+    "main.cf39d0da.css.map": "/krishilogin/static/css/main.cf39d0da.css.map",
+    "main.61c4406f.js.map": "/krishilogin/static/js/main.61c4406f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf39d0da.css",
+    "static/js/main.61c4406f.js"
+  ]
+}
