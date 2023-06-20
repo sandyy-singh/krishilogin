@@ -30,42 +30,6 @@ const Login = () => {
           <div className="part2">
             <h5>Login to your account to continue</h5>
             <form action="" onSubmit={submitForm}>
-              {/*   <div>
-                                <TextField
-                                    placeholder={"Enter your Email"}
-                                    value={email}
-                                    InputProps={{
-                                        style: {
-                                            borderRadius: "25px",
-                                            height: "45px",
-                                            color: " #292828",
-                                            fontSize: "15px",
-                                            width: "330px",
-                                        },
-                                    }}
-                                    onChange={(e) => setEmail(e.target.value)}
-                                />
-                            </div>
-                            <div>
-                                <TextField
-                                    type="password"
-                                    value={password}
-                                    autoComplete="current-password"
-                                    placeholder={"Enter your password"}
-                                    InputProps={{
-                                        style: {
-                                            borderRadius: "25px",
-                                            height: "45px",
-                                            color: " #292828",
-                                            fontSize: "15px",
-                                            width: "330px",
-                                        },
-                                    }}
-                                    onChange={(e) => setPassword(e.target.value)}
-                                />
-                            </div>
-                                */}
-
               <input
                 type="email"
                 placeholder="sandeeprewa43@gmail.com"
@@ -102,29 +66,7 @@ const Login = () => {
               Don't have an account?
               <span onClick={() => alert("hello")}>Sign Up!</span>
             </p>
-            {/*   <div className="line">
-              <div class="line-1"></div>
 
-              <div class="line-2"> or</div>
-
-              <div class="line-3"></div>
-            </div>
-
-            <div className="liginWith">
-              <div>
-                <FacebookIcon sx={{ color: "blue" }} />
-              </div>
-              <div>
-                <GoogleIcon sx={{ color: "blue" }} />{" "}
-              </div>
-              <div>
-                <BsFacebook />
-              </div>
-              <div>
-                <FcGoogle />
-              </div>
-              
-            </div>*/}
           </div>
         </div>
       </div>
