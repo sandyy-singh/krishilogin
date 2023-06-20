@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from '@mui/base/Button';
 // import Button from "@mui/material/Button";
 // import TextField from "@mui/material/TextField";
 import "../style/Login.scss";
@@ -32,7 +33,7 @@ const Login = () => {
             <form action="" onSubmit={submitForm}>
               <input
                 type="email"
-                placeholder="sandeeprewa43@gmail.com"
+                placeholder="Enter you email"
                 value={email}
                 autoComplete="current-password"
                 onChange={(e) => setEmail(e.target.value)}
@@ -58,13 +59,13 @@ const Login = () => {
               </div>
               <div className="loginbtn">
                 {/*  <input type="button" value="log In" />  */}
-                <button variant="contained">Login</button>
+                <Button>Login</Button>
               </div>
             </form>
 
             <p className="para">
               Don't have an account?
-              <span onClick={() => alert("hello")}>Sign Up!</span>
+              <a href="#signup">  Sign Up!</a>
             </p>
 
           </div>
