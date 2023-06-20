@@ -85,7 +85,7 @@ const Login = () => {
               <div className="checkbox1">
                 <div className="checkbox">
                   <input
-                    type="checkbox" 
+                    type="checkbox"
                   />
                   &nbsp;
                   <label for="vehicle2"> Remember Me</label>
@@ -94,13 +94,13 @@ const Login = () => {
               </div>
               <div className="loginbtn">
                 {/*  <input type="button" value="log In" />  */}
-                <button variant="contained">logIn</button>
+                <button variant="contained">Login</button>
               </div>
             </form>
 
             <p className="para">
               Don't have an account?
-              <span onClick={() => alert("hello")}>sign Up!</span>
+              <span onClick={() => alert("hello")}>Sign Up!</span>
             </p>
             {/*   <div className="line">
               <div class="line-1"></div>
